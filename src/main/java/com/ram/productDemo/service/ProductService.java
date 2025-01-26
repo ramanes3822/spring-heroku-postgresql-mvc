@@ -3,7 +3,6 @@ package com.ram.productDemo.service;
 import com.ram.productDemo.model.Product;
 import com.ram.productDemo.repo.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
