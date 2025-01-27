@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProductDemoApplication {
 
-	@Value("${Postgres.DATABASE_URL}")
+	@Value("${DATABASE_URL}")
 	private static String databaseUrl;
 
 	public static void main(String[] args) {
