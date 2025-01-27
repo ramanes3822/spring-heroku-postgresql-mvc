@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProductDemoApplication {
 
 	@Value("${DATABASE_URL}")
-	private static String databaseUrl;
+	private String databaseUrl;
 
 	public static void main(String[] args) {
 
